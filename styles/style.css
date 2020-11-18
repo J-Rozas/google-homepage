@@ -26,6 +26,11 @@ body {
     margin-left: 1rem;
     font-size: 13px;
     line-height: 24px;
+    outline: none;
+}
+
+#top a:focus, #top a:hover {
+    text-decoration: underline;
 }
 
 #top #J {
@@ -35,6 +40,7 @@ body {
     padding-left: 8px;
     border-radius: 50%;
     font-size: larger;
+    text-decoration: none;
 }
 
 #logo {
@@ -44,8 +50,6 @@ body {
     height: auto;
     justify-content: center;
 }
-
-
 
 #footer {
     display: grid;
@@ -86,7 +90,6 @@ body {
 form {
     display: flex;
     flex-direction: column;
-
 }
 
 #search-bar {
@@ -96,6 +99,18 @@ form {
     align-self: center;
     border-radius: 40px;
     border: gainsboro solid 1px;
+    text-indent: 30px;
+    background-image: url("../images/icon.png");
+    background-size: 19px;  
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: center;
+    outline: none;
+}
+
+#search-bar:hover{
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
 }
 
 #buttons {
@@ -115,3 +130,4 @@ button {
     cursor: pointer;
     border: transparent ;
 }
+ 
