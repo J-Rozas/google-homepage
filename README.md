@@ -1,1 +1,1 @@
-Project which consists of trying to copy the layout of google.com
+Project which consists of trying to emulate the layout of google.com
